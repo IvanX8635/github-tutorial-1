@@ -32,7 +32,8 @@ SSH key is used to access your account. We need it because rather than signing i
 1. `cd into the directory` (ex. `cd github-learning`)
 2. `git init`
 3. `touch "file-name"` to make a file
-4.  Add or edit stuff on your file
+4.  Make changes in your repository
+5.  What is under may be unecessary
 5. `git add .`
 6. `git commit -m “message”` (ex. `git commit -m “change cat to dog”`)
 
@@ -42,13 +43,14 @@ SSH key is used to access your account. We need it because rather than signing i
 3. Click “create repository”
 4. Make sure it’s on SSH
 
-**_Back in your [IDE]( http://ide.cs50.io/)_**
+**_Back in your [IDE]( http://ide.cs50.io/)_** 
 1. Make a folder and name it the same as your repo name (ex. `mkdir folder`)
 2. `cd folder`, and create a `README.md file` (`touch README.md`)
 3. `git init` to the folder
 4. `git add .`
+5. Make changes
 5. `git commit -m "message"`
-6. In github, copy and paste git remote add origin `git@github.com:username/reponame.git`
+6. On github, copy and paste git remote add origin `git@github.com:username/reponame.git`
 7. Lastly, `git push -u origin master`
 
 
